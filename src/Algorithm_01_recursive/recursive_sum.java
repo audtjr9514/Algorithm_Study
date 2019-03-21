@@ -3,7 +3,8 @@
 재귀 호출로 구현하라.
 구현한 메소드의 시간 복잡도는? n
  */
-public class sum {
+package Algorithm_01_recursive;
+public class recursive_sum {
     static int sum(int n) {
         if (n <= 1) return 1;
         return n + sum(n - 1);
